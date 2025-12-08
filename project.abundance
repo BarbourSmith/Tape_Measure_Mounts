@@ -549,6 +549,15 @@
           "currentEquation": "8"
         }
       ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.7890211640211641,
+      "y": 0.19220055710306408,
+      "uniqueID": "id-117",
+      "name": "Extract Tag",
+      "tag": "Reader",
+      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -606,6 +615,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-93",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-93",
+      "ap2ID": "id-117"
     },
     {
       "ap2Name": "geometry",
