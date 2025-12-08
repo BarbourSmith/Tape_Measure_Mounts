@@ -133,7 +133,7 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.30886243386243384,
+      "x": 0.30753968253968256,
       "y": 0.8523676880222841,
       "uniqueID": "id-24",
       "name": "Tape Measure",
@@ -309,8 +309,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.7255291005291006,
-          "y": 0.6768802228412256,
+          "x": 0.7281746031746031,
+          "y": 0.6685236768802229,
           "uniqueID": "id-76",
           "ioValues": [
             {
@@ -369,6 +369,13 @@
             }
           ],
           "unionType": "Fusion"
+        },
+        {
+          "atomType": "Color",
+          "x": 0.8273809523809523,
+          "y": 0.7883008356545962,
+          "uniqueID": "id-114",
+          "selectedColor": "Yellow"
         }
       ],
       "allConnectors": [
@@ -428,8 +435,13 @@
           "ap2ID": "id-76"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-76",
+          "ap2ID": "id-114"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-114",
           "ap2ID": "id-26"
         }
       ],
@@ -495,6 +507,48 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5158730158730159,
+      "y": 0.8384401114206128,
+      "uniqueID": "id-99",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6158730158730159,
+      "y": 0.8384401114206128,
+      "uniqueID": "id-105",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 8,
+          "currentEquation": "8"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -529,9 +583,9 @@
       "ap2ID": "id-84"
     },
     {
-      "ap2Name": "Shape 3",
+      "ap2Name": "geometry",
       "ap1ID": "id-24",
-      "ap2ID": "id-93"
+      "ap2ID": "id-99"
     },
     {
       "ap2Name": "geometry",
@@ -552,6 +606,16 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-93",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-99",
+      "ap2ID": "id-105"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-105",
+      "ap2ID": "id-93"
     }
   ],
   "unitsKey": "MM",
