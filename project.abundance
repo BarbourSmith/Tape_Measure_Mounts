@@ -229,11 +229,11 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.49007936507936506,
-      "y": 0.14484679665738162,
+      "x": 0.5,
+      "y": 0.14763231197771587,
       "uniqueID": "id-117",
       "name": "Extract Tag",
-      "tag": "Reader",
+      "tag": "End",
       "tagIndex": 0
     },
     {
@@ -244,6 +244,67 @@
       "name": "Extract Tag",
       "tag": "Top",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7076719576719577,
+      "y": 0.2256267409470752,
+      "uniqueID": "id-394",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Tape_Measure_Mounts",
+          "currentEquation": "Tape_Measure_Mounts"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Tape_Measure_Mounts"
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.5806878306878307,
+      "y": 0.3788300835654596,
+      "uniqueID": "id-399",
+      "name": "Extract Tag",
+      "tag": "Bottom",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.716931216931217,
+      "y": 0.3983286908077995,
+      "uniqueID": "id-402",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Tape_Measure_Mounts",
+          "currentEquation": "Tape_Measure_Mounts"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Tape_Measure_Mounts"
     },
     {
       "atomType": "Molecule",
@@ -899,7 +960,8 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 15
+                  "ioValue": 25,
+                  "currentEquation": "25"
                 }
               ]
             },
@@ -937,7 +999,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 10
+                  "ioValue": 12
                 }
               ]
             }
@@ -1075,67 +1137,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7076719576719577,
-      "y": 0.2256267409470752,
-      "uniqueID": "id-394",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Tape_Measure_Mounts",
-          "currentEquation": "Tape_Measure_Mounts"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Tape_Measure_Mounts"
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.583994708994709,
-      "y": 0.3788300835654596,
-      "uniqueID": "id-399",
-      "name": "Extract Tag",
-      "tag": "Bottom",
-      "tagIndex": 0
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7195767195767196,
-      "y": 0.3899721448467966,
-      "uniqueID": "id-402",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Tape_Measure_Mounts",
-          "currentEquation": "Tape_Measure_Mounts"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Tape_Measure_Mounts"
     }
   ],
   "allConnectors": [
@@ -1216,6 +1217,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-399",
+      "ap2ID": "id-402"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-24",
       "ap2ID": "id-99"
     },
@@ -1228,11 +1234,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-120",
       "ap2ID": "id-81"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-399",
-      "ap2ID": "id-402"
     }
   ],
   "unitsKey": "MM",
