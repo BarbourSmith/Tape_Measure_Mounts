@@ -32,8 +32,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": -20,
-          "currentEquation": "-20"
+          "ioValue": -20
         }
       ]
     },
@@ -45,13 +44,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 15
         },
         {
           "name": "y length",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         }
       ]
     },
@@ -63,8 +60,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ]
     },
@@ -132,9 +128,127 @@
       "unionType": "Fusion"
     },
     {
+      "atomType": "Tag",
+      "x": 0.28769841269841273,
+      "y": 0.14484679665738162,
+      "uniqueID": "id-81",
+      "name": "Reader",
+      "tags": [
+        "Reader"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.2718253968253968,
+      "y": 0.46239554317548753,
+      "uniqueID": "id-84",
+      "name": "End",
+      "tags": [
+        "End"
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3835978835978836,
+      "y": 0.12813370473537605,
+      "uniqueID": "id-87",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 30
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.45701058201058203,
+      "y": 0.48467966573816157,
+      "uniqueID": "id-93",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.26851851851851855,
+      "y": 0.83008356545961,
+      "uniqueID": "id-99",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3683862433862434,
+      "y": 0.8467966573816156,
+      "uniqueID": "id-105",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 11
+        }
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.49007936507936506,
+      "y": 0.14484679665738162,
+      "uniqueID": "id-117",
+      "name": "Extract Tag",
+      "tag": "Reader",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.583994708994709,
+      "y": 0.17548746518105848,
+      "uniqueID": "id-171",
+      "name": "Extract Tag",
+      "tag": "Top",
+      "tagIndex": 0
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.41931216931216936,
-      "y": 0.883008356545961,
+      "x": 0.15145502645502645,
+      "y": 0.9164345403899721,
       "uniqueID": "id-24",
       "name": "Tape Measure",
       "topLevel": false,
@@ -153,8 +267,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 45,
-              "currentEquation": "45"
+              "ioValue": 45
             }
           ]
         },
@@ -166,8 +279,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 44,
-              "currentEquation": "44"
+              "ioValue": 44
             }
           ]
         },
@@ -206,8 +318,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 23,
-              "currentEquation": "23"
+              "ioValue": 23
             },
             {
               "name": "y length",
@@ -229,8 +340,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             }
           ]
         },
@@ -246,8 +356,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -263,13 +372,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 23,
-              "currentEquation": "23"
+              "ioValue": 23
             },
             {
               "name": "y length",
-              "ioValue": 0.8,
-              "currentEquation": ".8"
+              "ioValue": 0.8
             }
           ]
         },
@@ -281,8 +388,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 15,
-              "currentEquation": "15"
+              "ioValue": 15
             }
           ]
         },
@@ -302,8 +408,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -11,
-              "currentEquation": "-11"
+              "ioValue": -11
             }
           ]
         },
@@ -448,118 +553,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Tag",
-      "x": 0.37896825396825395,
-      "y": 0.22005571030640667,
-      "uniqueID": "id-81",
-      "name": "Reader",
-      "tags": [
-        "Reader"
-      ]
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.3604497354497354,
-      "y": 0.5487465181058496,
-      "uniqueID": "id-84",
-      "name": "End",
-      "tags": [
-        "End"
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5833333333333334,
-      "y": 0.36490250696378834,
-      "uniqueID": "id-87",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 30,
-          "currentEquation": "30"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.7182539682539683,
-      "y": 0.6267409470752089,
-      "uniqueID": "id-93",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5158730158730159,
-      "y": 0.8384401114206128,
-      "uniqueID": "id-99",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.6150793650793651,
-      "y": 0.8523676880222841,
-      "uniqueID": "id-105",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 11,
-          "currentEquation": "11"
-        }
-      ]
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.7890211640211641,
-      "y": 0.19220055710306408,
-      "uniqueID": "id-117",
-      "name": "Extract Tag",
-      "tag": "Reader",
-      "tagIndex": 0
-    },
-    {
       "atomType": "Molecule",
       "x": 0.19047619047619047,
       "y": 0.3147632311977716,
@@ -589,8 +582,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 45,
-              "currentEquation": "45"
+              "ioValue": 45
             }
           ]
         },
@@ -611,8 +603,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -10,
-              "currentEquation": "-10"
+              "ioValue": -10
             }
           ]
         },
@@ -624,8 +615,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20
             }
           ]
         },
@@ -637,8 +627,7 @@
           "ioValues": [
             {
               "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "y-axis degrees",
@@ -646,8 +635,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             }
           ]
         },
@@ -667,8 +655,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 11,
-              "currentEquation": "11"
+              "ioValue": 11
             }
           ]
         },
@@ -728,13 +715,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             },
             {
               "name": "y length",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             }
           ]
         },
@@ -746,8 +731,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20
             }
           ]
         },
@@ -763,8 +747,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 15,
-              "currentEquation": "15"
+              "ioValue": 15
             },
             {
               "name": "zDist",
@@ -784,8 +767,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -15,
-              "currentEquation": "-15"
+              "ioValue": -15
             },
             {
               "name": "zDist",
@@ -913,13 +895,11 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 1,
-                  "currentEquation": "1"
+                  "ioValue": 1
                 },
                 {
                   "name": "y length",
-                  "ioValue": 15,
-                  "currentEquation": "15"
+                  "ioValue": 15
                 }
               ]
             },
@@ -957,8 +937,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 }
               ]
             }
@@ -1098,13 +1077,65 @@
       "fileTypeVersion": 1
     },
     {
+      "atomType": "Export",
+      "x": 0.7076719576719577,
+      "y": 0.2256267409470752,
+      "uniqueID": "id-394",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Tape_Measure_Mounts",
+          "currentEquation": "Tape_Measure_Mounts"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Tape_Measure_Mounts"
+    },
+    {
       "atomType": "ExtractTag",
-      "x": 0.8624338624338624,
-      "y": 0.37047353760445684,
-      "uniqueID": "id-171",
+      "x": 0.583994708994709,
+      "y": 0.3788300835654596,
+      "uniqueID": "id-399",
       "name": "Extract Tag",
-      "tag": "Top",
+      "tag": "Bottom",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7195767195767196,
+      "y": 0.3899721448467966,
+      "uniqueID": "id-402",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Tape_Measure_Mounts",
+          "currentEquation": "Tape_Measure_Mounts"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Tape_Measure_Mounts"
     }
   ],
   "allConnectors": [
@@ -1132,11 +1163,6 @@
       "ap2Name": "input",
       "ap1ID": "id-19",
       "ap2ID": "id-120"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-24",
-      "ap2ID": "id-99"
     },
     {
       "ap2Name": "geometry",
@@ -1180,6 +1206,21 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-117",
+      "ap2ID": "id-399"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-171",
+      "ap2ID": "id-394"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-24",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-120",
       "ap2ID": "id-84"
     },
@@ -1187,6 +1228,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-120",
       "ap2ID": "id-81"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-399",
+      "ap2ID": "id-402"
     }
   ],
   "unitsKey": "MM",
