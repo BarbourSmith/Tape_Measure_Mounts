@@ -42,7 +42,8 @@
         },
         {
           "name": "height",
-          "ioValue": -20
+          "ioValue": -65,
+          "currentEquation": "-65"
         }
       ]
     },
@@ -87,7 +88,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--20",
+            "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--65",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -307,8 +308,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7116402116402116,
-      "y": 0.21727019498607245,
+      "x": 0.7129629629629629,
+      "y": 0.22284122562674097,
       "uniqueID": "id-394",
       "ioValues": [
         {
@@ -326,14 +327,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Tape_Measure_Mounts",
-          "currentEquation": "Tape_Measure_Mounts"
+          "ioValue": "Upper Tape Measure Jig",
+          "currentEquation": "Upper Tape Measure Jig"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Tape_Measure_Mounts"
+      "partName": "Upper Tape Measure Jig"
     },
     {
       "atomType": "ExtractTag",
@@ -357,8 +358,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7182539682539683,
-      "y": 0.3899721448467966,
+      "x": 0.7228835978835979,
+      "y": 0.40668523676880225,
       "uniqueID": "id-402",
       "ioValues": [
         {
@@ -376,14 +377,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Tape_Measure_Mounts",
-          "currentEquation": "Tape_Measure_Mounts"
+          "ioValue": "Lower Tap Measure Jig",
+          "currentEquation": "Lower Tap Measure Jig"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Tape_Measure_Mounts"
+      "partName": "Lower Tap Measure Jig"
     },
     {
       "atomType": "Molecule",
@@ -1049,7 +1050,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "intersect-fuse-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--20-extrude-rectangle-15-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-rotate-move-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-22.5--10-90-0-90-0-0-12",
+                "geometry": "intersect-fuse-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--65-extrude-rectangle-15-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-move-rotate-move-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-22.5--10-90-0-90-0-0-12",
                 "tags": [],
                 "color": "#aad7f2",
                 "plane": {
